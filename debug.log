@@ -1,2 +1,6 @@
 [0626/125052.962:ERROR:settings.cc(320)] Settings magic is not 1129342067
 [0627/100506.939:ERROR:settings.cc(320)] Settings magic is not 1129342067
+[0628/103540.275:ERROR:settings.cc(320)] Settings magic is not 1129342067
+[0628/160141.472:ERROR:process_info.cc(359)] UncheckedAllocate
+[0628/162040.596:ERROR:process_info.cc(359)] UncheckedAllocate
+[0628/162054.249:ERROR:process_info.cc(359)] UncheckedAllocate

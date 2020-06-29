@@ -1,0 +1,2 @@
+const DELETE_REMINDER = "DELETE_REMINDER";
+export default DELETE_REMINDER;

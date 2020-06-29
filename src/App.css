@@ -1,38 +1,102 @@
 .App {
-  text-align: center;
+  width: 600px;
+  min-height: 600px;
+  border: 2px solid green;
+  margin: auto;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.title {
+  border-bottom: 3px solid green;
+
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 26px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 700;
+  color: whitesmoke;
+}
+form {
+  margin-top: 20px;
+  width: 100%;
+  height: 100%;
+}
+.manage-forms {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+  align-items: center;
+}
+input {
+  width: 80%;
+  padding: 5px;
+  border-radius: 5px;
+  border: 2px solid #1e8bc3;
+}
+input:focus {
+  outline: none !important;
+}
+.manage-buttons {
+  width: 96%;
+  margin: 10px 0;
+  display: flex;
+  justify-content: flex-end;
+}
+.count {
+  width: 50px;
+  border-radius: 7px;
+  border: 0.6px;
+  display: flex;
+  justify-content: flex-end;
+  width: 96%;
+  margin-top: 10px;
+}
+.reminders {
+  width: 100%;
+  height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.manage-reminder {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  margin-bottom: 5px;
+  border-radius: 4px;
+  align-items: center;
+  margin-right: 35px;
+  background-color: #d3d3d3;
+  color: black;
+  margin-top: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.lower-Container {
+  width: 100%;
+  height: 100%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.due {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 30px;
+}
+ul {
+  height: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  list-style: none;
+  margin-right: 20px;
+  margin: auto;
 }
-
-.App-link {
-  color: #61dafb;
+i {
+  color: red;
+  cursor: pointer;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+label {
+  margin-top: 5px;
+}
+body {
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
 }
